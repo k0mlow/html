@@ -1,0 +1,198 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+ul {
+    padding: 0px !important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #cba77f;
+    ;
+    height: 80px;
+    border-bottom: 5px solid gray;
+}
+
+
+main,
+.content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+
+}
+
+.coluna {
+    background-color: #fdfae7;
+
+}
+
+.logo {
+    float: left;
+    padding: 7px;
+    width: 70%;
+}
+
+.redes-sociais ul li {
+
+    margin-left: 10px;
+    display: inline-block;
+    list-style: none;
+}
+
+.redes-sociais {
+    width: 20%;
+    float: right;
+}
+
+.header-2 {
+    height: 54px;
+    background-color: #fdfae7;
+    width: 980px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.options {
+    float: left;
+    width: 70%;
+}
+
+.options ul li {
+
+    display: inline-block;
+    color: gray;
+    margin-left: 20px;
+    height: 50px;
+}
+
+.options ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+
+.options ul li a:hover {
+    color: #00bac6;
+
+}
+
+.options ul li a {
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.login {
+    margin-top: 16px;
+    display: inline-block;
+    width: 29%;
+    text-align: center;
+
+}
+
+:root {
+    --cor-botao: #202124;
+    --cor-letra: white;
+    --cor-hover: #737475;
+}
+
+.login button {
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    text-transform: uppercase;
+    background-color: var(--cor-botao);
+    color: var(--cor-letra);
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.login button:hover {
+    background-color: var(--cor-hover);
+}
+
+.login button:active {
+    background-color: var(--cor-letra);
+}
+
+
+.coluna-1 {
+    width: 100%;
+    float: left;
+    position: relative;
+    border-bottom: 5px solid gray;
+}
+
+.coluna {
+    width: 100%;
+    float: left;
+    position: relative;
+    border-bottom: 5px solid gray;
+    height: 84px;
+}
+
+button.slick-prev.slick-arrow {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/anterior.png);
+    top: 250;
+    left: 10%;
+    cursor: pointer;
+}
+
+button.slick-next.slick-arrow {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/posterior.png);
+    top: 250;
+    cursor: pointer;
+    right: 10%;
+
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 4px solid white;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 600px;
+
+}
+
+li.slick-active button {
+    background: turquoise;
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
